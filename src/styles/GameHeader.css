@@ -1,0 +1,26 @@
+.game-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 45px 10px;
+}
+
+.hit-points-indicator {
+    display: flex;
+}
+
+.hit-point {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.unused {
+    background-image: url("/public/icons/heart.svg");
+}
+
+.used {
+    background-image: url("/public/icons/heart-broken.svg");
+}

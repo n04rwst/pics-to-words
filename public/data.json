@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "token": "strawberry",
+    "word": "mansikka",
+    "type": "word"
+  },
+
+  {
+    "id": 2,
+    "token": "strawberry",
+    "url": "/images/words/strawberry.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 3,
+    "token": "headphones",
+    "word": "kuulokkeet",
+    "type": "word"
+  },
+
+  {
+    "id": 4,
+    "token": "headphones",
+    "url": "/images/words/headphones.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 5,
+    "token": "dog",
+    "word": "koira",
+    "type": "word"
+  },
+
+  {
+    "id": 6,
+    "token": "dog",
+    "url": "/images/words/dog.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 7,
+    "token": "cat",
+    "word": "kissa",
+    "type": "word"
+  },
+
+  {
+    "id": 8,
+    "token": "cat",
+    "url": "/images/words/cat.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 9,
+    "token": "car",
+    "word": "auto",
+    "type": "word"
+  },
+
+  {
+    "id": 10,
+    "token": "car",
+    "url": "/images/words/car.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 11,
+    "token": "plane",
+    "word": "kone",
+    "type": "word"
+  },
+
+  {
+    "id": 12,
+    "token": "plane",
+    "url": "/images/words/plane.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 13,
+    "token": "book",
+    "word": "kirja",
+    "type": "word"
+  },
+
+  {
+    "id": 14,
+    "token": "book",
+    "url": "/images/words/book.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 15,
+    "token": "pen",
+    "word": "kynä",
+    "type": "word"
+  },
+
+  {
+    "id": 16,
+    "token": "pen",
+    "url": "/images/words/pen.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 17,
+    "token": "house",
+    "word": "talo",
+    "type": "word"
+  },
+
+  {
+    "id": 18,
+    "token": "house",
+    "url": "/images/words/house.jpg",
+    "type": "image"
+  },
+
+  {
+    "id": 19,
+    "token": "cup",
+    "word": "kuppi",
+    "type": "word"
+  },
+
+  {
+    "id": 20,
+    "token": "cup",
+    "url": "/images/words/cup.jpg",
+    "type": "image"
+  }
+]
