@@ -1,5 +1,5 @@
-function Card({item, isSelected, isFinished, isChecking, onCardClick}) {
-    const { id, type, url, word: text } = item;
+function Card({language, item, isSelected, isFinished, isChecking, onCardClick}) {
+    const { id, type, url, word: { [language]: text } = {} } = item;
     const showError = isChecking && isSelected && !isFinished;
 
     const content = type === 'image'

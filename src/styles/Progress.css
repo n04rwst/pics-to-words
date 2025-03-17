@@ -12,7 +12,6 @@
 
 .progress {
     height: 100%;
-    width: 33%;
-    background-color: #ef476f;
+    background: linear-gradient(90deg, #3D5BA1 0%, #2E4B87 100%);
     border-radius: 15px;
 }

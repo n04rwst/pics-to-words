@@ -1,39 +1,24 @@
 import "./styles/App.css"
-import "./styles/Modal.css"
-import { useGame } from "./hooks/useGame.js";
-import Grid from "./components/Grid.jsx";
-import Modal from "./components/Modal.jsx";
-import GameHeader from "./components/GameHeader.jsx";
+import GamePage from "./components/GamePage.jsx";
+import InitialPage from "./components/InitialPage.jsx";
+import {useEffect, useState} from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-    const {
-        data,
-        finishedItems,
-        lives,
-        errorsCount,
-        isGameOver,
-        checkItems,
-        handleReset
-    } = useGame();
+    const [language, setLanguage] = useState("");
+
+    useEffect(() => {
+        const currentLanguage = localStorage.getItem("language");
+        if (!language) setLanguage(currentLanguage);
+    }, [language]);
 
     return (
-        <>
-            <GameHeader
-                guessedWords={finishedItems.length}
-                maxWords={data.length}
-                lives={lives}
-                errorsCount={errorsCount}
-            />
-            <Grid
-                words={data}
-                finishedItems={finishedItems}
-                checkItems={checkItems}
-            />
-            {isGameOver && <Modal
-                result={finishedItems.length === data.length ? 'Победа' : 'Поражение'}
-                wordsCount={finishedItems.length / 2}
-                handleReset={handleReset} />}
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route path="*" element={<InitialPage onLanguageChange={setLanguage} />} />
+                <Route path="/game" element={<GamePage language={language} />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 

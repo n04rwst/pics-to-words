@@ -1,8 +1,8 @@
-import "../styles/GameField.css"
+import "../styles/Grid.css"
 import Card from "./Card.jsx";
 import { useState } from "react";
 
-function Grid({words, finishedItems, checkItems}) {
+function Grid({language, words, finishedItems, checkItems}) {
     const [selectedItems, setSelectedItems] = useState([]);
 
     const handleCardClick = (id) => {
@@ -22,6 +22,7 @@ function Grid({words, finishedItems, checkItems}) {
 
     const cards = words.map(word => (
         <Card
+            language={language}
             key={word.id}
             item={word}
             isSelected={selectedItems.includes(word.id)}

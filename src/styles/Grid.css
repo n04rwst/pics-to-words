@@ -1,5 +1,5 @@
 .cards {
-    margin: 20px auto;
+    margin: 40px auto;
     list-style: none;
     display: grid;
     justify-items: center;
@@ -15,7 +15,7 @@
     width: 250px;
     height: 150px;
     border-radius: 10px;
-    background-color: #FFF;
+    background-color: #F5F5DC;
     color: #000;
     font-size: 24px;
     overflow: hidden;
@@ -33,7 +33,7 @@
 }
 
 .selected {
-    border: 6px solid #BFA2DB;
+    border: 6px solid #3D5BA1;
 }
 
 @keyframes fadeOut {
@@ -42,7 +42,7 @@
 }
 
 .disabled {
-    background-color: #BFA2DB;
+    background-color: #3D5BA1;
     color: #FFF;
     cursor: not-allowed;
     animation: fadeOut 0.4s ease-in-out forwards;

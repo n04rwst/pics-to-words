@@ -1,0 +1,64 @@
+.welcome {
+    padding: 50px;
+}
+
+.welcome img {
+    display: block;
+    margin: 0 auto 60px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.welcome-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+}
+
+.rules-list {
+    list-style: none;
+    padding: 20px;
+}
+
+.rules-list li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background: url("/public/icons/marker.svg") no-repeat left center;
+    background-size: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lang-button {
+    width: 115px;
+    border: none;
+    border-radius: 15px;
+    padding: 11px 11px 11px 42px;
+    background: #3D5BA1 no-repeat left 10px center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.lang-button:hover {
+    background-color: #344F8C;
+}
+
+.fin-button {
+    background-image: url("/public/icons/finland.svg");
+}
+
+.ger-button {
+    background-image: url("/public/icons/germany.svg");
+}
+
+.ita-button {
+    background-image: url("/public/icons/italy.svg");
+}
+

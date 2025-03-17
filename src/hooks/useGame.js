@@ -7,7 +7,8 @@ export function useGame() {
 
     const lives = 3;
     const errorsCount = stepsCount - finishedItems.length / 2;
-    const isGameOver = finishedItems.length === data.length || errorsCount >= lives;
+    const isDataLoaded = data.length > 0;
+    const isGameOver = isDataLoaded && (finishedItems.length === data.length || errorsCount >= lives);
 
     useEffect(() => {
         fetch('/public/data.json')

@@ -1,8 +1,14 @@
 .game-header {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
     margin: 20px 45px 10px;
+}
+
+.game-header img {
+    width: 100%;
+    max-width: 150px;
 }
 
 .hit-points-indicator {

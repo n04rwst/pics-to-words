@@ -2,7 +2,11 @@
   {
     "id": 1,
     "token": "strawberry",
-    "word": "mansikka",
+    "word": {
+      "finnish": "mansikka",
+      "german": "Erdbeere",
+      "italian": "fragola"
+    },
     "type": "word"
   },
 
@@ -16,7 +20,11 @@
   {
     "id": 3,
     "token": "headphones",
-    "word": "kuulokkeet",
+    "word": {
+      "finnish": "kuulokkeet",
+      "german": "Kopfhörer",
+      "italian": "cuffie"
+    },
     "type": "word"
   },
 
@@ -30,7 +38,11 @@
   {
     "id": 5,
     "token": "dog",
-    "word": "koira",
+    "word": {
+      "finnish": "koira",
+      "german": "Hund",
+      "italian": "cane"
+    },
     "type": "word"
   },
 
@@ -44,7 +56,11 @@
   {
     "id": 7,
     "token": "cat",
-    "word": "kissa",
+    "word": {
+      "finnish": "kissa",
+      "german": "Katze",
+      "italian": "gatta"
+    },
     "type": "word"
   },
 
@@ -58,7 +74,11 @@
   {
     "id": 9,
     "token": "car",
-    "word": "auto",
+    "word": {
+      "finnish": "auto",
+      "german": "Auto",
+      "italian": "auto"
+    },
     "type": "word"
   },
 
@@ -72,7 +92,11 @@
   {
     "id": 11,
     "token": "plane",
-    "word": "kone",
+    "word": {
+      "finnish": "kone",
+      "german": "Flugzeug",
+      "italian": "aereo"
+    },
     "type": "word"
   },
 
@@ -86,7 +110,11 @@
   {
     "id": 13,
     "token": "book",
-    "word": "kirja",
+    "word": {
+      "finnish": "kirja",
+      "german": "Buch",
+      "italian": "libro"
+    },
     "type": "word"
   },
 
@@ -100,7 +128,11 @@
   {
     "id": 15,
     "token": "pen",
-    "word": "kynä",
+    "word": {
+      "finnish": "kynä",
+      "german": "Stift",
+      "italian": "penna"
+    },
     "type": "word"
   },
 
@@ -114,7 +146,11 @@
   {
     "id": 17,
     "token": "house",
-    "word": "talo",
+    "word": {
+      "finnish": "talo",
+      "german": "Haus",
+      "italian": "casa"
+    },
     "type": "word"
   },
 
@@ -128,7 +164,11 @@
   {
     "id": 19,
     "token": "cup",
-    "word": "kuppi",
+    "word": {
+      "finnish": "kuppi",
+      "german": "Tasse",
+      "italian": "tazza"
+    },
     "type": "word"
   },
 
